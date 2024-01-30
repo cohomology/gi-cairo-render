@@ -23,8 +23,8 @@ Source-Repository head
   subdir:       gi-cairo-connector
 
 Library
-        build-depends:    base >= 4 && < 5, mtl >= 2.2 && <2.3,
-                          haskell-gi-base >=0.24.0 && <0.25,
+        build-depends:    base >= 4 && < 5, mtl >= 2.2 && <2.4,
+                          haskell-gi-base >=0.24.0 && <0.27,
                           gi-cairo >= 1.0 && <2,
                           gi-cairo-render == 0.1.*
         exposed-modules:  GI.Cairo.Render.Connector
